@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.arturo.menuopciones.ui.login.LoginFragment"
+        android:label="Login" />
+
+    <fragment
+        android:id="@+id/edadFragment"
+        android:name="com.arturo.menuopciones.ui.edad.EdadFragment"
+        android:label="Edad" />
+
+    <fragment
+        android:id="@+id/contadorFragment"
+        android:name="com.arturo.menuopciones.ui.contador.ContadorFragment"
+        android:label="Contador" />
+
+    <fragment
+        android:id="@+id/calculadoraFragment"
+        android:name="com.arturo.menuopciones.ui.calculadora.CalculadoraFragment"
+        android:label="Calculadora" />
+
+    <fragment
+        android:id="@+id/switchFragment"
+        android:name="com.arturo.menuopciones.ui.switchview.SwitchFragment"
+        android:label="Switch" />
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieListFragment">
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.arturo.arturomovieapp.MovieListFragment"
+        android:label="Movies"
+        tools:layout="@layout/fragment_movie_list" >
+        <action
+            android:id="@+id/action_movieListFragment_to_addMovieFragment"
+            app:destination="@id/addMovieFragment" />
+        <action
+            android:id="@+id/action_movieListFragment_to_modifyMovieFragment"
+            app:destination="@id/modifyMovieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMovieFragment"
+        android:name="com.arturo.arturomovieapp.AddMovieFragment"
+        android:label="Add Movie"
+        tools:layout="@layout/fragment_add_movie" />
+    <fragment
+        android:id="@+id/modifyMovieFragment"
+        android:name="com.arturo.arturomovieapp.ModifyMovieFragment"
+        android:label="Modify Movie"
+        tools:layout="@layout/fragment_modify_movie" />
+</navigation>

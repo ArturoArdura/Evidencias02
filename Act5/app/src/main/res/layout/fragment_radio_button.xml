@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:text="RadioButton" android:textStyle="bold" android:textSize="20sp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Descripción: Selección única entre varias opciones."
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Ejemplo: Elegir una opción y mostrarla."
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton android:id="@+id/rbA" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Opción A"/>
+            <RadioButton android:id="@+id/rbB" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Opción B"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvChoice"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Seleccionado: -" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/buttonFragment"       android:title="Button"/>
+        <item android:id="@+id/editTextFragment"     android:title="EditText"/>
+        <item android:id="@+id/radioButtonFragment"  android:title="RadioButton"/>
+        <item android:id="@+id/checkBoxFragment"     android:title="CheckBox"/>
+        <item android:id="@+id/switchFragment"       android:title="Switch"/>
+        <item android:id="@+id/spinnerFragment"      android:title="Spinner"/>
+        <item android:id="@+id/seekBarFragment"      android:title="SeekBar"/>
+        <item android:id="@+id/textViewFragment"     android:title="TextView"/>
+        <item android:id="@+id/imageViewFragment"    android:title="ImageView"/>
+        <item android:id="@+id/progressBarFragment"  android:title="ProgressBar"/>
+    </group>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Button" android:textStyle="bold" android:textSize="20sp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Descripción: Se usa para ejecutar una acción al tocarlo."/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Ejemplo: Contador que aumenta al presionar."/>
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Cuenta: 0" android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Sumar +1" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>
